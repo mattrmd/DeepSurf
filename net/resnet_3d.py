@@ -19,7 +19,7 @@ from tensorflow.contrib.layers.python.layers import utils
 from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import nn_ops
 from tensorflow.python.ops import variable_scope
-import resnet_3d_utils
+from . import resnet_3d_utils
 
 resnet_arg_scope = resnet_3d_utils.resnet_arg_scope
 

@@ -6,6 +6,7 @@ results/
 *.so
 *.o
 *.7z
+output/
 
 
 # Environments
